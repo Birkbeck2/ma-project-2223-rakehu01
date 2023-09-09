@@ -1,0 +1,64 @@
+.header-image #icon {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	width: 30%;
+	
+}
+
+.divider2t {
+    width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+    height: 140px;
+	background-color: #EB5D3E;
+	top: -10px;
+	margin-bottom: -10px;
+}
+
+.policy {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+}
+
+.policy h1 {
+	margin-top: 30pt;
+}
+.policy p {
+	font-size: 10pt;
+	margin-top: -15pt;
+}
+
+.middle{
+	width: 100%;
+	background-color: white;
+	
+}
+
+
+
+@media (max-width: 1100px) {
+		.header-image #icon {
+	top: 35%;
+	
+}
+	
+}
+
+@media (max-width: 920px) {
+	.policy h1 {
+		font-size: 4vw;
+		margin-top: 15pt;
+	}
+	.policy p {
+		font-size: 2vw;
+	}
+	
+	.header-image #icon {
+	top: 35%;
+	
+}
+	
+}
