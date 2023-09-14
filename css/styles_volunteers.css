@@ -133,22 +133,10 @@ display: flex;
 		padding: 15pt;
 	}
 	
-	.sect1 {
-		order: 2;
-	}
-	
-	.sect2 {
-		order: 2;
-	}
-	
 		.sect1 p {
 			margin-bottom: 20px;
+			font-size: 2vw;
 	}
-	
-			.sect1 p {
-			margin-bottom: 20px;
-	}
-	
 
 	
 		.divider2t {

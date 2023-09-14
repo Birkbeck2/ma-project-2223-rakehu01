@@ -31,12 +31,13 @@
   padding: 0 4px;
   margin-top: 40px;
 	width: 100%;
-	grid-template-columns: 40% 60%;
+	grid-template-columns: 60% 40%;
 	margin-bottom: 40px;
 }
 
 .details {
   margin-top: 0px;
+	margin-left: 30pt;
   padding: 0 15px;
 }
 
@@ -103,7 +104,9 @@ display: flex;
 	
 	.details {
   flex: 100%;
+		margin-top: 20pt;
   max-width: 100%;
+		margin-left: 0;
 	}
 .divider2t {
 		height: 50px;

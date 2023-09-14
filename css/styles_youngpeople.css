@@ -71,6 +71,15 @@ background: #EB5D3E;
 	
 }
 
+.sect1 h2 {
+	text-align: left;
+}
+
+.sect2 h2{
+	text-align: left;
+	
+}
+
 .sectimg img {
 padding: 30pt;
   margin-top: 0px;

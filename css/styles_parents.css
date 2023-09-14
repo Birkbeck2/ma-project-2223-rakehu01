@@ -153,6 +153,7 @@ display: flex;
 	
 	.sect1 {
 		order: 2;
+		text-align: center;
 	}
 	
 	.sect2 {
