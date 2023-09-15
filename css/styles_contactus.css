@@ -1,0 +1,120 @@
+/* defines  */
+.divider2t {
+    width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+    height: 120px;
+	background-color: #EB5D3E;
+	top: -10px;
+	margin-bottom: -10px;
+}
+/* defines  */
+.divider2t #dt {
+	color: white;
+	margin: auto;
+	font-size: 30pt;
+	font-size: 3vw;
+	font-weight: 600;
+	
+}
+/* defines  */
+.middle{
+	width: 100%;
+	background-color: white;
+	
+}
+/* defines  */
+.columncontainer{
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 40px;
+	width: 100%;
+	grid-template-columns: 60% 40%;
+	margin-bottom: 40px;
+}
+/* defines  */
+.details {
+  margin-top: 0px;
+	margin-left: 30pt;
+  padding: 0 15px;
+}
+/* defines  */
+.blurb1{
+	text-align: justify;
+}
+/* defines  */
+.blurb1 h1{
+	font-size: 2.9vw;
+}
+/* defines  */
+.blurb1 h3{
+	font-size: 1.8vw;
+	margin: 0;
+	margin-top: 20pt;
+}
+/* defines  */
+.blurb1 b{
+	font-weight: 400;
+	font-size: 1.2vw;
+	line-height: inherit;
+	line-height: normal;
+
+}
+/* defines  */
+@media (max-width: 1100px) {
+		.divider2t {
+		height: 80px;
+	}
+}
+/* defines  */
+@media (max-width: 920px) {
+/* defines  */
+.blurb1 {
+		text-align: center;
+	}
+/* defines  */
+.blurb1 h1{
+	font-size: 20pt;
+	line-height: 0;
+}
+/* defines  */
+.blurb1 h3 {
+	font-size: 15pt;
+	
+	}
+/* defines  */
+.blurb1 b {
+	font-size: 10pt;
+	line-height: 0;
+	
+	}
+/* defines  */
+.columncontainer{
+display: flex;
+  flex-wrap: wrap;
+		grid-template-columns: auto;
+}
+/* defines  */
+.details {
+  flex: 100%;
+		margin-top: 20pt;
+  max-width: 100%;
+		margin-left: 0;
+	}
+/* defines  */
+.divider2t {
+		height: 50px;
+	}
+}
+/* defines  */
+@media (max-width: 600px) {
+/* defines  */
+.divider2t #dt {
+			font-size: 14pt;
+	}
+	
+}

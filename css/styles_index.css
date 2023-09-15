@@ -1,0 +1,130 @@
+/* defines  */
+.middle{
+	width: 100%;
+	background-color: white;
+	
+}
+/* defines  */
+.middle p{
+	font-size: 1vw;
+	
+}
+/* defines  */
+.columncontainer{
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 40px;
+	grid-template-columns: 33% 33% 33%;
+	margin-bottom: 40px;
+}
+/* defines  */
+.column {
+  margin-top: 0px;
+  padding: 0 15px;
+}
+/* defines  */
+.column2 {
+  margin-top: 15px;
+  padding: 0 15px;
+}
+/* defines  */
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+	border-radius: 15px 60px 0px 0px; 
+}
+/* defines  */
+.blurb1{
+	text-align: justify;
+}
+/* defines  */
+.blurb1 h1{
+	font-size: 2.9vw;
+}
+/* defines  */
+.blurb1 p{
+	font-weight: 400;
+
+}
+/* defines  */
+.pro {
+	text-align: center;
+	background-color: #EB5D3E;
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	font-weight: 700;
+	font-size: 20pt;
+	font-size: 2vw;
+	margin-top: 0;
+	z-index: 100;
+	border-radius: 0 0 15px 15px;
+}
+/* defines  */
+.learnmore {
+	text-align: center;
+	background-color: white;
+	width: auto;
+	height: auto;
+	}
+/* defines  */
+.learnmore a {
+	text-decoration: none;
+	color: #7B549E;
+	font-weight: 700;
+	font-size: 15pt;
+	font-size: 1.5vw;
+	
+}
+/* defines  */
+@media (max-width: 1100px) {}
+/* defines  */
+@media (max-width: 920px) {
+/* defines  */
+.middle p{
+		font-size: 2vw;
+	}
+/* defines  */
+.blurb1 {
+		margin-bottom: 30pt;
+	}
+/* defines  */	
+.blurb1 h1{
+	font-size: 5vw;
+	line-height: 0;
+}
+/* defines  */
+.columncontainer{
+display: flex;
+  flex-wrap: wrap;
+		grid-template-columns: auto;
+}
+/* defines  */
+.column {
+margin-top: -8px;
+  flex: 100%;
+  max-width: 100%;
+	}
+/* defines  */
+.column2 {
+		margin-top: -8px;
+  flex: 50%;
+  max-width: 50%;
+	}
+/* defines  */
+.column2 img {
+	border-radius: 5px 20px 0px 0px; 
+}	
+/* defines  */
+.pro {
+		font-size: 3vw;
+	}
+/* defines  */
+.learnmore a {
+		font-size: 3vw;
+	}
+		
+}
