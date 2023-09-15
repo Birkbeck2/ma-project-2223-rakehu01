@@ -1,4 +1,4 @@
-/* defines  */
+/* defines the width, height, position, display style, alginment and spacing */
 .divider2t {
     width: 100%;
 	position: relative;
@@ -9,7 +9,7 @@
 	top: -10px;
 	margin-bottom: -10px;
 }
-/* defines  */
+/* defines the font colour spcing and weight */
 .divider2t #dt {
 	color: white;
 	margin: auto;
@@ -18,12 +18,12 @@
 	font-weight: 600;
 	
 }
-/* defines  */
+/* defines div scale and background colour */
 .middle{
 	width: 100%;
 	background-color: white;
 }
-/* defines  */
+/* defines div content layout, displaying as a grid and using grid columns to define two columns ans there allocated width */
 .wcontainer{
   margin: auto;
   display: grid;
@@ -36,14 +36,14 @@ background: #7B549E;
 	padding-left: 12%;
 	padding-right: 12%;
 }
-/* defines  */
+/* defines container attributes that the image and copy will be held in  */
 .sect1 {
 	width: 100%;
 	margin: auto;
 	color: white;
 	text-align: center;
 }
-/* defines  */
+/* defines spacing and column layout and width within container  */
 .columncontainer {
 	width: 100%;
 margin: auto;
@@ -56,7 +56,7 @@ margin: auto;
 	grid-template-columns: 25% 25% 25% 25%;
 	
 }
-/* defines  */
+/* defines spacing, alignment, radius and width  */
 .colimg {
 margin-top: 0px;
   vertical-align: middle;
@@ -64,14 +64,14 @@ margin-top: 0px;
 	margin: 10pt;
 	width: auto;
 }
-/* defines  */
+/* defines spacing a width */
 .colimg img {
 padding: 20pt;
   margin-top: 0px;
   vertical-align: middle;
   width: 100%;
 }
-/* defines  */
+/* defines spacing, font charateristics and layer position  */
 .pro {
 	text-align: center;
 	background-color: #EB5D3E;
@@ -80,14 +80,14 @@ padding: 20pt;
 	margin-top: 0;
 	z-index: 100;
 }
-/* defines  */
+/* defines font size weight and spacing */
 .pro b {
 	font-weight: 700;
 	font-size: 1vw;
 	margin: 0;
 	padding: 0;
 }
-/* defines  */
+/* defines spacing width and alignment */
 .learnmore {
 	text-align: center;
 	vertical-align: bottom;
@@ -99,7 +99,7 @@ padding: 20pt;
 	padding-bottom: 10pt;
 	margin-bottom: 0;
 	}
-/* defines  */
+/* defines font charateristics */
 .learnmore a {
 	text-decoration: none;
 	color: white;
@@ -107,90 +107,90 @@ padding: 20pt;
 	font-size: 1vw;
 	margin: 0;
 }
-/* defines  */
+/* defines changes that will be applied when viewport is below 1100px */
 @media (max-width: 1100px) {
-	/* defines  */
+	/* defines div height */
 .divider2t {
 		height: 80px;
 	}
 }
-/* defines  */
+/* defines changes that will be applied when viewport is below 920px */
 @media (max-width: 920px) {
-/* defines  */
+/* defines display as flex and columns as auto */
 .ocontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-/* defines  */
+/* defines display as flex and columns as auto */
 .wcontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-/* defines  */
+/* defines div order */
 .sectimg {
 		order: 1;
 		border-radius: 10pt 50pt 10pt 10pt;
 	}
-/* defines  */	
+/* defines border radius and padding changes */
 .sectimg img {
 		padding: 15pt;
 	}
-/* defines  */
+/* defines div order */
 .sect1 p {
 			margin-bottom: 20px;
 			font-size: 2vw;
 	}
-/* defines  */
+/* defines div height */
 .divider2t {
 		height: 60px;
 	}
-/* defines  */
+/* defines font size  */
 .divider2t #dt {
 			font-size: 3vw;
 	}
-/* defines  */
+/* defines column display as flex  */
 .columncontainer{
 display: flex;
 			flex: 100%;
 			max-width: 100%;
 			padding: 0;
 }
-/* defines  */
+/* defines size, spacing and radius */
 .colimg {
 margin-top: 10px;
   flex: 40%;
   max-width: 50%;
 		border-radius: 10pt 20pt 10pt 10pt; 
 	}
-/* defines  */
+/* defines spacing */
 .colimg img {
 padding: 15pt;
 }
-/* defines  */
+/* defines font size */
 .pro b {
 	font-size: 2.3vw;
 }
-/* defines  */
+/* defines border radius and spacing */
 .learnmore {
 	border-radius: 0 0 10px 10px;
 	padding-top: 4pt;
 	padding-bottom: 5pt;
 	}
-/* defines  */
+/* defines font size and spacing  */
 .learnmore a {
 	font-size: 2.5vw;
 	margin: 0;
 }
-/* defines  */
+/* defines div height */
 .divider2t {
 		height: 50px;
 	}
 }
-/* defines  */
+/* defines changes that will be applied when viewport is below 600px */
 @media (max-width: 600px) {
-/* defines  */
+/* defines font size */
 .divider2t #dt {
 			font-size: 14pt;
 	}
