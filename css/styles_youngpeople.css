@@ -1,3 +1,4 @@
+/* defines the width, height, position, display style, alginment and spacing */
 .divider2t {
     width: 100%;
 	position: relative;
@@ -8,6 +9,7 @@
 	top: -10px;
 	margin-bottom: -10px;
 }
+/* defines the font colour spcing and weight */
 .divider2t #dt {
 	color: white;
 	margin: auto;
@@ -16,20 +18,20 @@
 	font-weight: 600;
 	
 }
-
+/* defines div scale and background colour */
 .middle{
 	width: 100%;
 	background-color: white;
 }
-
+/* defines div heading font size */
 .middle h2 {
 	font-size: 25pt;	
 }
+/* defines div body copy font size */
 .middle p {
 	font-size: 1vw;
 }
-
-
+/* defines div content layout, displaying as a grid and using grid columns to define two columns ans there allocated width */
 .wcontainer{
   margin: auto;
   display: grid;
@@ -42,7 +44,7 @@
 	padding-left: 12%;
 	padding-right: 12%;
 }
-
+/* defines div content layout, displaying as a grid and using grid columns to define two columns ans there allocated width */
 .ocontainer{
   margin: auto;
   display: grid;
@@ -56,13 +58,13 @@ background: #EB5D3E;
 	padding-left: 12%;
 	padding-right: 12%;
 }
-
+/* defines  */
 .sect1 {
 	width: 100%;
 	margin: auto;
 	text-align: justify;
 }
-
+/* defines  */
 .sect2 {
 	width: 100%;
 	margin: auto;
@@ -70,16 +72,16 @@ background: #EB5D3E;
 	text-align: justify;
 	
 }
-
+/* defines div height */
 .sect1 h2 {
 	text-align: left;
 }
-
+/* defines div height */
 .sect2 h2{
 	text-align: left;
 	
 }
-
+/* defines div height */
 .sectimg img {
 padding: 30pt;
   margin-top: 0px;
@@ -87,71 +89,70 @@ padding: 30pt;
   width: 100%;
 	border-radius: 40pt 100pt 40pt 40pt; 
 }
-
-
+/* defines div height */
 @media (max-width: 1100px) {
-	
+	/* defines div height */
 	.divider2t {
 		height: 80px;
 	}
 }
-
+/* defines div height */
 @media (max-width: 920px) {
-	
-
-	.ocontainer{
+/* defines div height */
+.ocontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-	
-		.wcontainer{
+/* defines div height */
+.wcontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-	.sectimg {
+/* defines div height */
+.sectimg {
 		order: 1;
 	}
-	
-	.sectimg img {
+/* defines div height */
+.sectimg img {
 		padding: 10pt;
 		border-radius: 20pt 50pt 20pt 20pt; 
 	}
-	
-	.sect1 {
+/* defines div height */
+.sect1 {
 		order: 2;
 	}
-	
-	.sect2 {
+/* defines div height */
+.sect2 {
 		order: 2;
 	}
-	
-		.sect1 p {
+/* defines div height */
+.sect1 p {
 			margin-bottom: 20px;
 	}
-	
-	.sect2 p {
+/* defines div height */
+.sect2 p {
 			margin-bottom: 20px;
 	}
-	
-	.middle h2 {
+/* defines div height */
+.middle h2 {
 	text-align: center;
 	font-size: 3vw;
 }
+/* defines div height */
 .middle p {
 	font-size: 6pt;
 }
-
-	
-			.divider2t {
+/* defines div height */
+.divider2t {
 		height: 50px;
-	}
-	
+	}	
 }
+/* defines div height */
 @media (max-width: 600px) {
-	
-		.divider2t #dt {
+/* defines div height */
+.divider2t #dt {
 			font-size: 14pt;
 	}
 	

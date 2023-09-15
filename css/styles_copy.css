@@ -1,3 +1,4 @@
+/* defines  */
 .header-image #icon {
 	position: absolute;
 	top: 40%;
@@ -5,7 +6,7 @@
 	width: 30%;
 	
 }
-
+/* defines  */
 .divider2t {
     width: 100%;
 	position: relative;
@@ -16,51 +17,48 @@
 	top: -10px;
 	margin-bottom: -10px;
 }
-
+/* defines  */
 .policy {
 	width: 80%;
 	margin: auto;
 	text-align: justify;
 }
-
+/* defines  */
 .policy h1 {
 	margin-top: 30pt;
 }
+/* defines  */
 .policy p {
 	font-size: 10pt;
 	margin-top: -15pt;
 }
-
+/* defines  */
 .middle{
 	width: 100%;
-	background-color: white;
-	
+	background-color: white;	
 }
-
-
-
+/* defines  */
 @media (max-width: 1100px) {
-		.header-image #icon {
-	top: 35%;
-	
+/* defines  */
+.header-image #icon {
+	top: 35%;	
 }
-	
 }
-
+/* defines  */
 @media (max-width: 920px) {
-	.policy h1 {
+/* defines  */
+.policy h1 {
 		font-size: 4vw;
 		margin-top: 15pt;
 	}
 	.policy p {
 		font-size: 2vw;
 	}
-	
-	.header-image #icon {
+/* defines  */
+.header-image #icon {
 	top: 38%;
 	left: 40%;
 	width: 20%;
 	
-}
-	
+}	
 }

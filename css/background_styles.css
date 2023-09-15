@@ -1,15 +1,20 @@
+/* imports fonts from external source */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
     font-family: Raleway;
 }
+/* defines sites background colour */
 html {
     background-color: white;
 }
+/* how the total width and height of an element is judged */
+/* defines site font */
 * {
     box-sizing: border-box;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
+/* body tags margin and padding properties */
 body {
 	
     margin: 0;
@@ -25,15 +30,18 @@ body {
 	padding-left: 12%;
 	padding-right: 12%
 }
+/* logo size and spacing properties */
 .brand-logo {
     margin: .5rem;
 	padding-top: 30px;
 	padding-bottom: 10px;
 	width: 300px;
 }
+/* defines social media height */
 .social-media {
 	height: 100%;
 }
+/* defines social icons display, position and spacing */
 .social-media ul {
     display: flex;
 	position: absolute;
@@ -42,22 +50,27 @@ body {
     margin: 0;
     padding: 0;
 }
+/* defines list style and icon width */
 .social-media li {
     list-style: none;
 	width: 50px;
 	margin-left: 10px;
 }
+/* displays icons in block */
 .social-media li a {
     display: block;
     text-decoration: none;
 }
+/* defines follow us icon width */
 #fu {
 	width: 133px;
 	margin-left: -85px;
 }
+/* defines nav bar height */
 .navbar-links {
     height: 100%;
 }
+/* defines display characteristics, set to flex for more responsive attributes */
 .navbar-links ul {
     display: flex;
 	position: absolute;
@@ -74,6 +87,7 @@ body {
 	border-radius: 30px 5px 0px 0px;
 	background-color: #EB5D3E;
 }
+/* set to block to align them horizontally */
 .navbar-links li a {
     display: block;
     text-decoration: none;
@@ -82,9 +96,11 @@ body {
 	text-align: center;
 	font-size: 11pt;
 }
+/* changes colour when you hover over */
 .navbar-links li:hover {
     background-color: #7B549E;
 }
+/* defines burger icon container and how items will be displayed within */
 .toggle-button {
     position: absolute;
     top: 30px;
@@ -95,12 +111,14 @@ body {
     width: 30px;
     height: 21px;
 }
+/* defines attributes of items within container */
 .toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: #EB5D3E;
     border-radius: 10px;
 }
+/* defines position and attributes of divider */
 .divider {
     position: relative;
 	bottom: 0;
@@ -109,6 +127,7 @@ body {
 	background-color: #EB5D3E;
 	margin-top: -2px;
 }
+/* defines position and attributes of container and display of contents */
 .header-image {
 	width: 100%;
 	height: 50%;
@@ -120,11 +139,13 @@ body {
 	margin-bottom: -260px;
 	z-index: -1;
 }
+/* defines image attributes within container */
 .header-image img {
 	width: 100%;
 	position: relative;
 	top: 0px;
 }
+/* defines attributes of the divider its size position in relation to the header image and its display style */
 .divider2 {
     width: 100%;
 	position: relative;
@@ -135,15 +156,18 @@ body {
 	top: -10px;
 	margin-bottom: -10px;
 }
+/* defines background colour of the container and spacing within the container */
 .donation{
 		padding: 5%;
 		background-color: #7B549E;
 	}
+/* defines image attributes within container */
 .donation img {
 	margin-left: 12%;
 	margin-right: 12%;
 	
 }
+/* defines the divs size, display style, spacing around the container and the colour within */
 .iconcontainer {
 	display: flex;
 	width: 80%;
@@ -156,6 +180,7 @@ body {
 	
 	
 }
+/* defines the divs size and display style. Also defines the font size for the text within the div, variable width has been used which means the font size is defined by the container width */
 .footer {
 	
 	display: flex;
@@ -164,6 +189,7 @@ body {
 	font-size: 1vw;
 	
 }
+/* defines the container attributes */
 .footer .base-bar {
 	background-color: #EB5D3E;
 	width: 100%;
@@ -173,55 +199,68 @@ body {
 	padding-right: 12%;
 	padding-top: 10px;
 }
+/* defines the top line of information, its display and scale */
 .footer .base-bar .topline {
 	display: inline-flex;
 	width: 100%;
 	
 }
+/* defines container for the contact info on the left and defines the container width */
 .contact {
 	width: 50%;
 }
+/* defines container for the legal doc nav info on the right and defines the container width */
 .lowernav {
 	width: 50%;
 }
+/* defines the text alignment for the nav links */
 #nav2 {
 	text-align-last: right;
 }
+/* defines font attributes */
 #nav2 a {
 	color: white;
 	text-decoration: none;
 	font-weight: 500
 }
+/* defines font attributes */
 #email a {
 	color: white;
 	text-decoration: none;
 	
 }
+/* defines font attributes */
 #tel {
 	color: white;
 	
 }
+/* defines font attributes */
 #e {
 	font-weight: 500;
 }
+/* defines font attributes */
 #t {
 	font-weight: 500;
 }
+/* defines font attributes */
 #b {
 	font-weight: 900;
 	margin-left: 12pt;
 	margin-right: 12pt;
 }
+/* defines font attributes */
 #b1 {
 	font-weight: 900;
 	margin-left: 12pt;
 	margin-right: 12pt;
 }
+/* defines font attributes */
 #b2 {
 	font-weight: 900;
 	margin-left: 12pt;
 	margin-right: 12pt;
 }
+/* defines font attributes */
 #address {
 	color: white;
 	width: 100%;
@@ -231,90 +270,108 @@ body {
 	margin: 0;
 	
 }
-
+/* redefines the webpage based on the updated screen size */
 @media (max-width: 1100px) {
-	
-	.navbar {
+/* new spacing left and right */
+.navbar {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-	.navbar-links ul {
+/* new right hand spacing */
+.navbar-links ul {
 		right: 5%;
     }
+/* new right hand spacing */
 .social-media ul {
 	right: 5%;
 }
-	.header-image img {
+/* new top spacing */
+.header-image img {
 	top: 60px;
 }
-	.divider2 {
+/* new height and margin spacing */
+.divider2 {
 		height: 30px;
 		margin-top: 0px;
 	}
-	.footer {
+/* new margin spacing */
+.footer {
 		margin: 0;
 	}
-	.footer .base-bar {
+/* new height and spacing */
+.footer .base-bar {
 	padding-left: 5%;
 	padding-right: 5%;
 	height: auto;
 		
 	}
+/* new font weight and margin spacing */
 #b {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* new font weight and margin spacing */
 #b1 {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* new font weight and margin spacing */
 #b2 {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* new bottom spacing */
 #address {
 	padding-bottom: 15PX;
 	
 }
 }
+/* redefines the webpage based on the updated screen size */
 @media (max-width: 920px) {
-	
-	.brand-logo {
+/* defines new spacing and new element size */
+.brand-logo {
     margin: 15px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	width: 150px;
 }
+/* defines new spacing */
 .social-media ul {
 	right: 70px;
 	top: 26px;
 }
+/* defines new spacing */
 .social-media li {
 	width: 25px;
 	margin-left: 5px;
 }
+/* defines new spacing and new element size */
 #fu {
 	width: 70px;
 	margin-left: -45px;
 	display: none;
 }
-	.navbar {
+/* defines elements as being displayed as column */
+.navbar {
         flex-direction: column;
         align-items: flex-start;
 		padding-left: 0;
 		padding-right: 0;
     }
-    .toggle-button {
+/* defines element display */
+.toggle-button {
         display: flex;
     }
-    .navbar-links {
+/* hides inline nav links */
+.navbar-links {
 	display: none;
         width: 100%;
     }
-    .navbar-links ul {
+/* defines nav links size, layout, location and layer position */
+.navbar-links ul {
         width: 100%;
         flex-direction: column;
 		position: absolute;
@@ -322,70 +379,82 @@ body {
 		right: 0%;
 		z-index: 1000;
     }
-    .navbar-links ul li {
+/* defines font attributes */
+.navbar-links ul li {
         text-align: center;
 		width: 100%;
 		margin-left: 0;
 		border-radius: 0;
     }
-    .navbar-links ul li a {
+.navbar-links ul li a {
    
     }
-    .navbar-links.active {
+/* defines active display, now the media width has been achieved the element activates */
+.navbar-links.active {
         display: flex;
     }
-	.header-image {
+/* defines container behaviour */
+.header-image {
 	overflow: hidden;
 	top: -150px;
 	margin-bottom: -150px;
 	}
-	.header-image img{
+/* defines image attributes within container */
+.header-image img{
 		width: 150%;
 		margin-left: -25%;
 	}
-	.divider2 {
+/* defines div height and spacing */
+.divider2 {
 		height: 30px;
 		margin-top: 0px;
 	}
-	.footer {
+/* defines divs spacing and font sizing */
+.footer {
 		margin: 0;
 		font-size: 10pt;
 		font-size: 1.3vw;
 	}
-	.footer .base-bar {
+/* defines divs spacing */
+.footer .base-bar {
 	padding-left: 5%;
 	padding-right: 5%;
 	height: auto;
 		
 	}
+/* defines font weight and spacing */
 #b {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* defines font weight and spacing */
 #b1 {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* defines font weight and spacing */
 #b2 {
 	font-weight: 900;
 	margin-left: 5pt;
 	margin-right: 5pt;
 }
+/* defines font weight and spacing */
 #address {
 	padding-bottom: 15PX;
 	font-size: 1.2vw;
 	
 }
+/* defines div height */
 .divider2t {
 		height: 50px;
 	}
-	
+/* redefines the webpage based on the updated screen size */
 }
 @media (max-width: 600px) {
-	
-		.divider2t #dt {
+/* defines font size within div */	
+.divider2t #dt {
 			font-size: 14pt;
 	}
 	

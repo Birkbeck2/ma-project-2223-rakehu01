@@ -1,3 +1,4 @@
+/* defines  */
 .divider2t {
     width: 100%;
 	position: relative;
@@ -8,6 +9,7 @@
 	top: -10px;
 	margin-bottom: -10px;
 }
+/* defines  */
 .divider2t #dt {
 	color: white;
 	margin: auto;
@@ -16,7 +18,7 @@
 	font-weight: 600;
 	
 }
-
+/* defines  */
 .blurbcontainer{
   margin: auto;
   display: grid;
@@ -29,26 +31,27 @@ background: #7B549E;
 	padding-left: 12%;
 	padding-right: 12%;
 }
+/* defines  */
 .sect {
 	width: 100%;
 	margin: auto;
 	color: white;
 	text-align: center;
 }
-
+/* defines  */
 .middle{
 	width: 100%;
 	background-color: white;
 }
-
+/* defines  */
 .middle h2 {
 	font-size: 25pt;	
 }
+/* defines  */
 .middle p {
 	font-size: 1vw;
 }
-
-
+/* defines  */
 .wcontainer{
   margin: auto;
   display: grid;
@@ -61,7 +64,7 @@ background: #7B549E;
 	padding-left: 12%;
 	padding-right: 12%;
 }
-
+/* defines  */
 .ocontainer{
   margin: auto;
   display: grid;
@@ -75,13 +78,13 @@ background: #EB5D3E;
 	padding-left: 12%;
 	padding-right: 12%;
 }
-
+/* defines  */
 .sect1 {
 	width: 100%;
 	margin: auto;
 	text-align: justify;
 }
-
+/* defines  */
 .sect2 {
 	width: 100%;
 	margin: auto;
@@ -89,16 +92,16 @@ background: #EB5D3E;
 	text-align: justify;
 	
 }
-
+/* defines  */
 .sect1 h2 {
 	text-align: left;
 }
-
+/* defines  */
 .sect2 h2{
 	text-align: left;
 	
 }
-
+/* defines  */
 .sectimg img {
 padding: 30pt;
   margin-top: 0px;
@@ -106,7 +109,7 @@ padding: 30pt;
   width: 100%;
 	border-radius: 40pt 100pt 40pt 40pt; 
 }
-
+/* defines  */
 .columncontainer {
 	width: 100%;
 margin: auto;
@@ -116,10 +119,10 @@ margin: auto;
   padding: 0 10pt;
   margin-top: 20pt;
 	margin-bottom: 20pt;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: 35% 35%;
 	
 }
-
+/* defines  */
 .colimg {
 margin-top: 0px;
   vertical-align: middle;
@@ -127,14 +130,14 @@ margin-top: 0px;
 	margin: 10pt;
 	width: auto;
 }
-
+/* defines  */
 .colimg img {
 padding: 20pt;
   margin-top: 0px;
   vertical-align: middle;
   width: 100%;
 }
-
+/* defines  */
 .pro {
 	text-align: center;
 	background-color: #EB5D3E;
@@ -143,14 +146,14 @@ padding: 20pt;
 	margin-top: 0;
 	z-index: 100;
 }
-
+/* defines  */
 .pro b {
 	font-weight: 700;
 	font-size: 1vw;
 	margin: 0;
 	padding: 0;
 }
-
+/* defines  */
 .learnmore {
 	text-align: center;
 	vertical-align: bottom;
@@ -162,7 +165,7 @@ padding: 20pt;
 	padding-bottom: 10pt;
 	margin-bottom: 0;
 	}
-
+/* defines  */
 .learnmore a {
 	text-decoration: none;
 	color: white;
@@ -170,105 +173,103 @@ padding: 20pt;
 	font-size: 1vw;
 	margin: 0;
 }
-
+/* defines  */
 @media (max-width: 1100px) {
-	
-	.divider2t {
+/* defines  */
+.divider2t {
 		height: 80px;
 	}
 }
-
+/* defines  */
 @media (max-width: 920px) {
-	
-
-	.ocontainer{
+/* defines  */
+.ocontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-	
-		.wcontainer{
+/* defines  */
+.wcontainer{
 display: flex;
   flex-wrap: wrap;
 		grid-template-columns: auto;
 }
-	.sectimg {
+/* defines  */
+.sectimg {
 		order: 1;
 	}
-	
-	.sectimg img {
+/* defines  */
+.sectimg img {
 		padding: 10pt;
 		border-radius: 20pt 50pt 20pt 20pt; 
 	}
-	
-	.sect1 {
+/* defines  */
+.sect1 {
 		order: 2;
 	}
-	
-	.sect2 {
+/* defines  */
+.sect2 {
 		order: 2;
 	}
-	
-		.sect1 p {
+/* defines  */
+.sect1 p {
 			margin-bottom: 20px;
 	}
-	
-	.sect2 p {
+/* defines  */
+.sect2 p {
 			margin-bottom: 20px;
 	}
-	
-	.middle h2 {
+/* defines  */
+.middle h2 {
 	text-align: center;
 	font-size: 3vw;
 }
+/* defines  */
 .middle p {
 	font-size: 6pt;
 }
-
-	
-			.divider2t {
+/* defines  */
+.divider2t {
 		height: 50px;
 	}
-	
-	.columncontainer{
+/* defines  */
+.columncontainer{
 display: flex;
 			flex: 100%;
 			max-width: 100%;
 			padding: 0;
 }
-	
-	.colimg {
+/* defines  */
+.colimg {
 margin-top: 10px;
   flex: 40%;
   max-width: 50%;
 		border-radius: 10pt 20pt 10pt 10pt; 
 	}
-	
-	.colimg img {
+/* defines  */
+.colimg img {
 padding: 15pt;
 }
-	.pro {
-}
-
+/* defines  */
 .pro b {
 	font-size: 2.3vw;
 }
-
+/* defines  */
 .learnmore {
 	border-radius: 0 0 10px 10px;
 	padding-top: 4pt;
 	padding-bottom: 5pt;
 	}
-
+/* defines  */
 .learnmore a {
 	font-size: 2.5vw;
 	margin: 0;
 }
-	
 }
+/* defines  */
 @media (max-width: 600px) {
-	
-		.divider2t #dt {
+/* defines  */
+.divider2t #dt {
 			font-size: 14pt;
 	}
 	
